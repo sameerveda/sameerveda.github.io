@@ -16,7 +16,8 @@ import { el, mount, svg, unmount } from 'https://redom.js.org/redom.es.min.js';
             r: r(15, 5),
             cx: r(window.innerWidth),
             cy: r(window.innerHeight),
-            fill: `rgba(${r(255)},${r(255)},${r(255)}, ${r(0.2, 0.6)})`,
+            // fill: `rgba(128,128,128, ${r(0.2, 0.6)})`,
+            fill: `hsla(${r(360)},${r(100)}%,${r(100)}%, ${r(0.2, 0.6)})`,
           });
         } else {
           const r = (n, start = 0) => start + Math.floor(Math.random() * n);
