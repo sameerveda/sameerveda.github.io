@@ -1,0 +1,14 @@
+{
+  "name": "make-mockup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://git.heroku.com/afternoon-fjord-74786.git",
+  "author": "Sameer Veda <sameerveda@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn install && yarn http-server"
+  },
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
+}

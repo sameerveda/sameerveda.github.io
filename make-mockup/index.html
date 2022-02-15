@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Make Mockup</title>
+    <script src="./index.js" type="module"></script>
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+    html,
+    body,
+    body > svg {
+      height: 100%;
+      width: 100%;
+      position: relative;
+    }
+
+    h1 {
+      font-weight: normal;
+      font-size: 3rem;
+    }
+    h3 {
+      font-weight: normal;
+      font-size: 1.5rem;
+    }
+
+    html {
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .msg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 300px;
+      width: 300px;
+      z-index: 2;
+      padding: 2rem;
+      background: white;
+      border: 1px solid lightgray;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2%;
+      flex-direction: column;
+      font-family: 'Handlee', cursive;
+    }
+  </style>
+  <body>
+    <div class="msg">
+      <h1>Make Mockup</h1>
+      <h3>This is dream, which will soon come true</h3>
+      <h3>Please Wait</h3>
+    </div>
+  </body>
+</html>
